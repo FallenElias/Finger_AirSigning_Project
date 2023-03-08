@@ -12,6 +12,9 @@ mpDraw = mp.solutions.drawing_utils
 
 # Initialize list of finger positions
 finger_positions = []
+drawing_started = False
+drawing_points = []
+drawing_lists = []
 
 # Main loop for video capture and hand detection
 while True:
@@ -35,18 +38,32 @@ while True:
                 h, w, c = image.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 
-                # If the current landmark is the tip of the index finger, add its position to the list
+                # If the current landmark is the tip of the index finger
                 if id == 8:
+                    # Add its position to the list
                     finger_positions.append((cx, cy))
+
+                    # If the finger is up and drawing has not yet started, start a new drawing list
+                    if not drawing_started:
+                        drawing_started = True
+                        drawing_points = []
+                        drawing_lists.append(drawing_points)
+                    # If the finger is up and drawing has already started, add the position to the current drawing list
+                    else:
+                        drawing_points.append((cx, cy))
+
                     cv2.circle(image, (cx, cy), 10, (255, 0, 255), cv2.FILLED)
+                else:
+                    drawing_started = False
 
             # Draw the landmarks and connections on the image using MediaPipe
             mpDraw.draw_landmarks(image, handLms, mpHands.HAND_CONNECTIONS)
 
-    # If there are any finger positions in the list, draw a curve passing through all of them
-    if len(finger_positions) > 0:
-        curve = np.array(finger_positions)
-        cv2.polylines(image, [curve], False, (255, 0, 0), 3)
+    # Draw all the completed drawings on the image
+    for points in drawing_lists:
+        if len(points) > 0:
+            curve = np.array(points)
+            cv2.polylines(image, [curve], False, (255, 0, 0), 3)
 
     # Display the image on the screen
     cv2.imshow("Output", image)
