@@ -3,11 +3,6 @@
 # All imports
 import numpy as np
 import cv2
-from PIL import Image
-import matplotlib.pyplot as plt
-import os
-import numpy as np
-import pandas as pd
 import mediapipe as mp
 import imutils
 
