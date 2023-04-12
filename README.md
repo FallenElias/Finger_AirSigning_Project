@@ -61,6 +61,12 @@ To run the depth estimation stream, simply execute the following command:
 python cameraLens.py
 ```
 
+- The camera starts up
+- Place your hand in the model for calibration
+- Press SPACE to confirm the calibration
+- Make your signature
+- When finished press "q" to finish signing
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 ![OpenCV](https://img.shields.io/badge/PyTorch-1.13.0-orange?style=for-the-badge&logo=pytorch&logoColor=orange) ![OpenCV](https://img.shields.io/badge/OpenCV-4.6.0-orange?style=for-the-badge&logo=opencv&logoColor=orange) ![NumPy](https://img.shields.io/badge/numpy-1.23.4-orange?style=for-the-badge&logo=numpy&logoColor=orange)
 
