@@ -73,3 +73,4 @@ python cameraLens.py
 ## ✍️ Authors <a name = "authors"></a>
 
 - [Kelig Lefeuvre](https://github.com/keligggg)
+- [Elias Dève](https://github.com/FallenElias)
