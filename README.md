@@ -46,8 +46,8 @@ In order to use this project, you will need to have the following software and l
 To get started with this project, clone the repository to your local machine and install the required dependencies.
 
 ```bash
-git clone https://github.com/jgfranco17/depth-camera.git
-cd depth-camera
+git clone https://github.com/FallenElias/Grakovski_project.git
+cd Grakovski_project/cameraLens
 pip install -r requirements.txt
 ```
 
