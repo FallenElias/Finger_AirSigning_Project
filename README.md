@@ -21,7 +21,7 @@ This project aims to develop a contactless and secure way to sign documents in r
 ## 🔧 Project Structure <a name = "structure"></a>
 
 ```
-/cameraLens/
+/Finger_AirSigning_Project/
 ├── cameraLens.py           Initial program.
 ├── main.png                Hand picture.
 ├── README.md               Project overview and outline.
@@ -46,8 +46,8 @@ In order to use this project, you will need to have the following software and l
 To get started with this project, clone the repository to your local machine and install the required dependencies.
 
 ```bash
-git clone https://github.com/FallenElias/Grakovski_project.git
-cd Grakovski_project/cameraLens
+git clone https://github.com/FallenElias/Finger_AirSigning_Project.git
+cd Finger_AirSigning_Project
 pip install -r requirements.txt
 ```
 
