@@ -14,7 +14,7 @@ class App:
         self.begin = False
 
         self.mphands = mp.solutions.hands
-        self.hands = self.mphands.Hands()
+        self.hands = self.mphands.Hands(max_num_hands= 1, min_detection_confidence = 0.5)
         self.mp_drawing = mp.solutions.drawing_utils
 
         # initialize the known distance from the camera to the object, which
