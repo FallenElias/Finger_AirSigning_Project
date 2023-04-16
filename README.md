@@ -68,9 +68,13 @@ python cameraLens.py
 - When finished press "q" to finish signing
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-![OpenCV](https://img.shields.io/badge/PyTorch-1.13.0-orange?style=for-the-badge&logo=pytorch&logoColor=orange) ![OpenCV](https://img.shields.io/badge/OpenCV-4.6.0-orange?style=for-the-badge&logo=opencv&logoColor=orange) ![NumPy](https://img.shields.io/badge/numpy-1.23.4-orange?style=for-the-badge&logo=numpy&logoColor=orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13.0-orange?style=for-the-badge&logo=pytorch&logoColor=orange) ![OpenCV](https://img.shields.io/badge/OpenCV-4.6.0-orange?style=for-the-badge&logo=opencv&logoColor=orange) ![NumPy](https://img.shields.io/badge/numpy-1.23.4-orange?style=for-the-badge&logo=numpy&logoColor=orange) ![MediaPipe](https://img.shields.io/badge/MEDIAPIPE-0.9.2.1-orange?style=for-the-badge&logo=google&logoColor=orange)
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [Kelig Lefeuvre](https://github.com/keligggg)
 - [Elias Dève](https://github.com/FallenElias)
+- [Quentin Amiel](https://github.com/quentin_aml)
+- [Enzo Cogneville](https://github.com/lenzone91)
+- [Augustin Mascarelli](https://github.com/augustinmascarelli)
+- [Yona Bitton](https://github.com/yonabitton)
