@@ -74,7 +74,7 @@ python cameraLens.py
 
 - [Kelig Lefeuvre](https://github.com/keligggg)
 - [Elias Dève](https://github.com/FallenElias)
-- [Quentin Amiel](https://github.com/quentin_aml)
+- [Quentin Amiel](https://github.com/quentinaml)
 - [Enzo Cogneville](https://github.com/lenzone91)
 - [Augustin Mascarelli](https://github.com/augustinmascarelli)
 - [Yona Bitton](https://github.com/yonabitton)
